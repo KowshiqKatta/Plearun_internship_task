@@ -15,4 +15,4 @@ make test
 
 **What would break first on real records.** Scanned PDFs, changing device-clock drift, large JSON exports (100 MB/file guard), ambiguous identities, and unusually structured records require stronger parsers, entity linking and alignment.
 
-**AI/tool disclosure.** ChatGPT (OpenAI GPT-6) assisted with architecture, implementation, regression tests and review. The tool itself runs using Python's standard library; `unittest`/`make test` run offline. No runtime LLM is used. AI-generated implementation and design decisions should be reviewed before a technical interview.
+**AI/tool disclosure.** ChatGPT (OpenAI GPT-6) assisted with architecture, implementation, regression tests and review. The tool itself runs using Python's standard library; `unittest`/`make test` run offline. No runtime LLM is used. 
